@@ -1,4 +1,4 @@
-package execicio;
+package exercicio;
 
 public class Circulo {
     private float raio;

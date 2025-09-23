@@ -1,4 +1,6 @@
-package execicio;
+package execicio.execicio;
+
+import exercicio.Circulo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
