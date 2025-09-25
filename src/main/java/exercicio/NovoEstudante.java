@@ -11,7 +11,7 @@ public class NovoEstudante {
         this.notas = notas;
     }
 
-    // Método getMedia corrigido
+    // Método getMedia
     public double getMedia() {
         double soma = 0.0;
         for (double nota : notas) {
@@ -20,13 +20,15 @@ public class NovoEstudante {
         return soma / notas.length;  // Calculando a média e retornando
     }
 
-    // Método setNotas - já estava correto
+    // Método setNotas - Substitui as notas por um novo array
     public void setNotas(double... notas) {
+
         this.notas = notas;  // Atualizando o array de notas
     }
 
-    // Método getNotas corrigido
+    // Método getNotas - Retorna a nota no índice informado
     public double getNota(int indice) {
+        return notas[indice];
 
     }
 }

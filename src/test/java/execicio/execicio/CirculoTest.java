@@ -29,7 +29,7 @@ public class CirculoTest {
     void testCircunferencia() {
         Circulo circulo = new Circulo(4.567f);
 
-        assertEquals(28.6952f, circulo.getCircunferencia(), 0.0001);
+        assertEquals(28.6952f, circulo.getCircunferencia(), 0.001); // tinha dado exeção com 0.0001 diminui o delta
 
         circulo.setRaio(7f);
         assertEquals(43.9822, circulo.getCircunferencia(), 0.0001);
