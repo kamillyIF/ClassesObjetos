@@ -45,6 +45,7 @@ public class Calculadora {
 
     // Método de subtração (apenas dois valores)
     static double subtracao(double a, double b) {
+
         return a - b;
     }
 
@@ -62,12 +63,5 @@ public class Calculadora {
         System.out.println("Multiplicação: " + Calculadora.multiplicacao(2, 3, 4));
         System.out.println("Subtração: " + Calculadora.subtracao(50, 20));
         System.out.println("Divisão: " + Calculadora.divisao(100, 5));
-
-        // Testando divisão por zero
-        try {
-            System.out.println(Calculadora.divisao(10, 0));
-        } catch (IllegalArgumentException e) {
-            System.out.println("Erro: " + e.getMessage());
-        }
     }
 }
